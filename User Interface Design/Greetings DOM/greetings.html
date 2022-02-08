@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Greetings DOM</title>
+</head>
+<body>
+    <h1>Elite Coaching Center</h1>
+  <form>
+    <table border=1>
+      <tr>
+        <td><label for="sname">Student Name</label></td>
+        <td><input type="text" id="sname" required></td>
+      </tr>
+      <tr>
+        <td><label for="course">Course</label></td>
+        <td>
+          <select id="course" required>
+            <option value="Python">Python</option>
+            <option value="Java">Java</option>
+            <option value="Oracle">Oracle</option>
+          </select>
+        </td>
+      </tr>
+    </table><br>
+    <input type="button" id="submit" value="Register" onclick="display();"><br>
+
+    <div id="greet"></div>
+    <script type="text/javascript" src="script.js">
+    </script>
+  </form>
+</body>
+</html>

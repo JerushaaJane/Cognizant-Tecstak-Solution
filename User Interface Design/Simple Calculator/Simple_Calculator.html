@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>CALCULATOR</title>
+  <style media="screen">
+    body {
+      display: grid;
+      place-items: center;
+    }
+    label {
+      width: 180px;
+      display: inline-block;
+      text-align: left;
+    }
+    input {
+      text-align: right;
+    }
+    button {
+      background-color: white;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+    <font size="20" color="blue">Calculator</font><br>
+    <img src="calculator.jpg" alt="Calculator" style="height:300px;width:400px;">
+    <form>
+      <table>
+        <tr>
+          <td>
+            <label for="input1">Input1</label>
+          </td>
+          <td>
+            <input type="number" name="input1" required>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="input2">Input2</label>
+          </td>
+          <td>
+            <input type="number" name="input2" required>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="operation">Select Operation</label>
+          </td>
+          <td>
+            <select class="" name="operation" required>
+              <option value="Select..">Select..</option>
+              <option value="ADD">ADD</option>
+              <option value="SUBTRACT">SUBTRACT</option>
+              <option value="MULTIPLY">MULTIPLY</option>
+              <option value="DIVIDE">DIVIDE</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button type="submit" name="submit">
+              <img src="calc.jpg" alt="Calculate" style="height:80px;width:80px;">
+            </button>
+          </td>
+          <td>
+            <button type="reset" name="reset">
+              <img src="reset.jpg" alt="Reset" style="height:80px;width:80px;">
+            </button>
+          </td>
+        </tr>
+      </table>
+    </form>
+</body>
+</html>
