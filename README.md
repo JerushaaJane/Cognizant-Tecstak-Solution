@@ -1,1 +1,1 @@
-# Cognizant-Tecstak-Solution
+# Cognizant-Solutions
