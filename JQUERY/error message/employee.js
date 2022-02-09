@@ -1,10 +1,12 @@
 //WRITE YOUR jQUERY CODE HRE
 
-$('#btn-id').click(function(){
-    $.ajax({
-        url: 'employee.json',
-        error:function(){
-            $('#err-id').html("Error Message: Not found");
+
+  $(document).ready(function(){
+    $('#btn-id').click(function(){
+      $.ajax({
+        url:'index.js',error:function(){
+          $('#err-id').html("Error Message : Not Found");
         }
-    })
-})
+      });
+    });
+  });
