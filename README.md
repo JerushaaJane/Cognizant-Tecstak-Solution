@@ -6,3 +6,5 @@
 3)Jquery
 
 4)MySQL
+
+5)PL/SQL
