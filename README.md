@@ -12,3 +12,5 @@
 6)Java Programming
 
 7)Advanced Java Concepts
+
+8)Design Principles and Patterns
