@@ -14,3 +14,5 @@
 7)Advanced Java Concepts
 
 8)Design Principles and Patterns
+
+9)Data Structures and Algorithms
